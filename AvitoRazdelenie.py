@@ -7,9 +7,11 @@ import csv
 import sys
 
 
+
 def get_html(url):
     r = requests.get(url)
     return r.text
+
 
 
 def get_total_pages(html):
@@ -19,6 +21,7 @@ def get_total_pages(html):
     return int(total_pages)
 
 
+
 def write_csv(data):
     #print(str(data['title']))
     #print(data['price'])
@@ -26,23 +29,20 @@ def write_csv(data):
     #print(data['myurl'])
     with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow( (data['number'],
-                          data['rooms'],
+        writer.writerow( (data['rooms'],
                           data['square'],
                           data['price'],
+                          data['metro'],
                           data['address'],
                           data['myurl'] )  )
         #sys.exit(0)
+
 
 
 def get_page_data(html):
     soup = BeautifulSoup(html, 'lxml')
     #print(soup)
     ads = soup.find('div', class_='catalog-list', recursive = True).find_all('div', class_='item_table')
-    with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(('Number','Rooms','Square','Price','Address','Url'))
-    number = 1
     for ad in ads:
         try:
             rooms = ad.find('div', class_='description').find('h3', class_= 'title').text.strip().split(',')[0]
@@ -61,20 +61,29 @@ def get_page_data(html):
         except:
             price = ''
         try:
-            address = ad.find('p', class_='address').text.strip()
+            metro = ad.find('p', class_='address').text.strip().split('1')[0].split('2')[0].split('3')[0].split('4')[0].split('5')[0].split('6')[0].split('7')[0].split('8')[0].split('9')[0]
+        except:
+            metro = ''
+        try:
+            address = ad.find('p', class_='address').text.strip().split(',')[1] + ',' + ad.find('p', class_='address').text.strip().split(',')[2]
         except:
             address = ''
-        data = {'number':number,
-                'rooms':rooms,
-                'square':square,
-                'price':price,
-                'address':address,
-                'myurl':myurl}
-        write_csv(data)
-        number = number + 1
+        if price != 'ценанеуказана':
+            if price != 'Ценанеуказана':
+                data = { 'rooms':rooms,
+                         'square':square,
+                         'price':price,
+                         'metro':metro,
+                         'address':address,
+                         'myurl':myurl}
+                write_csv(data)
+
 
 
 def main():
+    with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(('Rooms','Square','Price','Metro','Address','Url'))
     url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?p=1'
     base_url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?'
     page_part = 'p=' 
@@ -83,6 +92,7 @@ def main():
         url_gen = base_url + page_part + str(i)
         html = get_html(url_gen)
         get_page_data(html)
+
 
 
 if __name__ == '__main__':
