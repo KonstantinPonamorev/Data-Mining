@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import csv
 import sys
 
-
+number=1
 
 def get_html(url):
     r = requests.get(url)
@@ -29,7 +29,8 @@ def write_csv(data):
     #print(data['myurl'])
     with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow( (data['rooms'],
+        writer.writerow( (data['number'],
+                          data['rooms'],
                           data['square'],
                           data['price'],
                           data['metro'],
@@ -40,6 +41,7 @@ def write_csv(data):
 
 
 def get_page_data(html):
+    global number
     soup = BeautifulSoup(html, 'lxml')
     #print(soup)
     ads = soup.find('div', class_='catalog-list', recursive = True).find_all('div', class_='item_table')
@@ -70,20 +72,22 @@ def get_page_data(html):
             address = ''
         if price != 'ценанеуказана':
             if price != 'Ценанеуказана':
-                data = { 'rooms':rooms,
+                data = { 'number':number,
+                         'rooms':rooms,
                          'square':square,
                          'price':price,
                          'metro':metro,
                          'address':address,
                          'myurl':myurl}
                 write_csv(data)
+        number=number+1
 
 
 
 def main():
     with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(('Rooms','Square','Price','Metro','Address','Url'))
+        writer.writerow(('Number','Rooms','Square','Price','Metro','Address','Url'))
     url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?p=1'
     base_url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?'
     page_part = 'p=' 
