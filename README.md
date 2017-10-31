@@ -4,3 +4,11 @@
 В файле kvartiry.csv приведен пример собранных данных, для которых были получены следующие графики:
 
 ![График 1](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_1.png)
+
+![График 2](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_2.png)
+
+![График 3](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_3.png)
+
+![График 4](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_4.png)
+
+![График 5](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_5.png)
