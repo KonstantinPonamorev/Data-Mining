@@ -72,14 +72,15 @@ def get_page_data(html):
             address = ''
         if price != 'ценанеуказана':
             if price != 'Ценанеуказана':
-                data = { 'number':number,
-                         'rooms':rooms,
-                         'square':square,
-                         'price':price,
-                         'metro':metro,
-                         'address':address,
-                         'myurl':myurl}
-                write_csv(data)
+                if address != '':
+                    data = { 'number':number,
+                             'rooms':rooms,
+                             'square':square,
+                             'price':price,
+                             'metro':metro,
+                             'address':address,
+                             'myurl':myurl}
+                    write_csv(data)
         number=number+1
 
 
