@@ -49,38 +49,37 @@ def get_page_data(html):
         try:
             rooms = ad.find('div', class_='description').find('h3', class_= 'title').text.strip().split(',')[0]
         except:
-            rooms = ''
+            rooms = '-'
         try:
             square = ad.find('div', class_='description').find('h3', class_= 'title').text.strip().split(',')[1].split('м')[0].replace(' ', '')
         except:
-            square = ''
+            square = '-'
         try:
             myurl = 'https://www.avito.ru' + ad.find('div', class_='description').find('h3', class_= 'title').find('a').get('href')
         except:
-            myurl = ''
+            myurl = '-'
         try:
             price = ad.find('div', class_='about').text.strip().split('р')[0].replace(' ','')
         except:
-            price = ''
+            price = '-'
         try:
             metro = ad.find('p', class_='address').text.strip().split('1')[0].split('2')[0].split('3')[0].split('4')[0].split('5')[0].split('6')[0].split('7')[0].split('8')[0].split('9')[0]
         except:
-            metro = ''
+            metro = '-'
         try:
             address = ad.find('p', class_='address').text.strip().split(',')[1] + ',' + ad.find('p', class_='address').text.strip().split(',')[2]
         except:
-            address = ''
+            address = '-'
         if price != 'ценанеуказана':
             if price != 'Ценанеуказана':
-                if address != '':
-                    data = { 'number':number,
-                             'rooms':rooms,
-                             'square':square,
-                             'price':price,
-                             'metro':metro,
-                             'address':address,
-                             'myurl':myurl}
-                    write_csv(data)
+                data = { 'number':number,
+                         'rooms':rooms,
+                         'square':square,
+                         'price':price,
+                         'metro':metro,
+                         'address':address,
+                         'myurl':myurl}
+                write_csv(data)
         number=number+1
 
 
