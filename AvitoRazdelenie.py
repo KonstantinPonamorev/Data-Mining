@@ -57,7 +57,11 @@ def get_page_data(html):
         try:
             myurl = 'https://www.avito.ru' + ad.find('div', class_='description').find('h3', class_= 'title').find('a').get('href')+'>'
         except:
+<<<<<<< HEAD
             myurl = '>'
+=======
+            myurl = '-'
+>>>>>>> upstream/SQL
         try:
             price = ad.find('div', class_='about').text.strip().split('р')[0].replace(' ','')
         except:

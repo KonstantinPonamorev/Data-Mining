@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Number,Rooms,Square,Price,Metro,Address,Url>
 1,3-к квартира,88,9500000,Комендантский проспект ," Богатырский пр-кт, 55к1",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_88_m_318_et._563503151>
 2,2-к квартира,63,6400000,Технологический ин-т I ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_63_m_23_et._1012006715>
@@ -157,3 +158,162 @@ Number,Rooms,Square,Price,Metro,Address,Url>
 156,3-к квартира,75,6610000,Ленинский проспект ," пр-т Героев, д. 25",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_75_m_321_et._858962212>
 157,3-к квартира,76,7040000,Ленинский проспект ," пр-т Героев, д. 25",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_76_m_821_et._858962211>
 158,2-к квартира,54,5150000,Ленинский проспект ," пр-т Героев, д. 27",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_54_m_321_et._721354776>
+=======
+Number,Rooms,Square,Price,Metro,Address,Url
+1,2-к квартира,73.9,13990000,Чернышевская ," Санкт-Петербург, Кирочная",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_73.9_m_29_et._1087952766
+2,3-к квартира,80,9900000,Чернышевская ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_80_m_15_et._352339871
+3,3-к квартира,88,9500000,Комендантский проспект ," Богатырский пр-кт, 55к1",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_88_m_318_et._563503151
+4,3-к квартира,102,10500000,Чернышевская ," ул Кирочная, 24",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_102_m_56_et._1005752136
+5,3-к квартира,104,19000000,Парнас ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_104_m_23_et._1206206045
+6,2-к квартира,33,4190000,Василеостровская ," ул Гаванская, 47А",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_33_m_35_et._920552235
+7,2-к квартира,45,2450000,Рыбацкое ," п. Саперный, ул Дорожная",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_45_m_23_et._907532380
+8,1-к квартира,43.3,4750000,Московская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_43.3_m_316_et._1157548412
+9,1-к квартира,29,3300000,Проспект Большевиков ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_29_m_49_et._1213357451
+10,1-к квартира,39,3700000,Старая деревня ," Юнтоловский проспект, 53к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39_m_25_et._998501026
+11,4-к квартира,84.3,7999000,Сенная площадь ," Канала Грибоедова наб, 113",https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_84.3_m_17_et._761435261
+12,2-к квартира,43.7,4300000,Московская ," Пилотов ул, 23",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_43.7_m_15_et._983213354
+13,1-к квартира,39,4150000,Проспект Большевиков ," Чудновского ул, 13",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39_m_1516_et._931580284
+14,1-к квартира,35.4,3600000,Лесная ," Полюстровский пр-т, корп. 1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_35.4_m_816_et._1031986591
+15,2-к квартира,74.9,10119840,Площадь Ленина ," Пискаревский пр-т, д. 1",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_74.9_m_210_et._1209560422
+16,2-к квартира,75.9,7245174,Лесная ," Большой Сампсониевский пр-т, д. 77/7",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_75.9_m_817_et._1197653526
+17,2-к квартира,58.3,5622006,Лесная ," Большой Сампсониевский пр-т, д. 77/7",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_58.3_m_817_et._985907185
+18,3-к квартира,259.6,17500000,Удельная ," Манчестерская ул., 10к2",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_259.6_m_1617_et._737968432
+19,2-к квартира,48.4,4350000,Купчино ," Карпатская Мал. ул., 17",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_48.4_m_612_et._1201810879
+20,2-к квартира,42,3850000,Павловское шоссе д.,-,https://www.avito.ru/sankt-peterburg_pushkin/kvartiry/2-k_kvartira_42_m_24_et._946483678
+21,1-к квартира,34.5,3950000,Ленинский проспект ," Ленинский пр-кт, 117к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_34.5_m_1016_et._1040884840
+22,1-к квартира,53,5350000,Старая деревня ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_53_m_1623_et._816516174
+23,1-к квартира,43.4,4200000,Купчино ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_43.4_m_510_et._1030394637
+24,1-к квартира,42,2800000,Ладожская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_42_m_916_et._1056671110
+25,3-к квартира,70,7000000,ул. Пушкинская ,-,https://www.avito.ru/sankt-peterburg_pushkin/kvartiry/3-k_kvartira_70_m_44_et._1173877775
+26,Студия,23,2650000,Приморская ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_23_m_413_et._952980366
+27,2-к квартира,63,6400000,Технологический ин-т I ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_63_m_23_et._1012006715
+28,1-к квартира,32.2,4700000,Петроградская ," ул Ординарная, 21",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_32.2_m_77_et._1107950653
+29,1-к квартира,43,6999000,Старая деревня ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_43_m_1012_et._1147309982
+30,2-к квартира,67,11100000,Старая деревня ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_67_m_1212_et._1216024547
+31,1-к квартира,43,6499000,Старая деревня ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_43_m_1012_et._1103074054
+32,Студия,28,3600000,Приморская ," Вадима Шефнера, д.10",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_28_m_218_et._954322929
+33,3-к квартира,86,6500000,Рыбацкое ," ул. Заводская, стр. 1 (2 этап)",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_86_m_1924_et._1165838677
+34,1-к квартира,39,4850000,Звездная ," ул Орджоникидзе, 58к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39_m_316_et._953832785
+35,4-к квартира,84,7100000,Площадь А. Невского I ," Невский пр-кт, 119",https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_84_m_66_et._995574276
+36,3-к квартира,84,6750000,Пролетарская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_84_m_617_et._1039424395
+37,3-к квартира,113.3,12200000,Московская ," Московский пр-т, д. 181",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_113.3_m_517_et._916007536
+38,1-к квартира,41,3800000,Пролетарская ," ул. Ново-Александровская, д. 14",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_41_m_1818_et._1087045005
+39,1-к квартира,38,2700000,"Тверская улица, ",-,https://www.avito.ru/sankt-peterburg_kolpino/kvartiry/1-k_kvartira_38_m_1010_et._1070631910
+40,Студия,27.8,3290000,Рыбацкое ," Рыбацкий пр-кт, 18к2",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_27.8_m_1826_et._796999145
+41,3-к квартира,89,7800000,Ломоносовская ," Октябрьская наб., д. 126",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_89_m_817_et._1107444409
+42,2-к квартира,58,5300000,Купчино ," п. Шушары,Вилеровский пер. д.6 ЖК Юнион",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_58_m_314_et._1102274741
+43,1-к квартира,36,3250000,Проспект Ветеранов ," Тер. предприятия «Предпортовый», уч. 3.3. Корпус 3",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_36_m_312_et._1140720491
+44,1-к квартира,37,3900000,Международная ," Пр. Славы, д. 34",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_37_m_814_et._1042327171
+45,2-к квартира,42,4000000,Академическая ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_42_m_27_et._972470700
+46,Студия,27.4,1950000,Старая деревня ," ул. Оборонная, 1 очередь",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_27.4_m_213_et._955630212
+47,1-к квартира,40,5290000,Пионерская ," Железнодорожный пер, 12",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_40_m_421_et._1124475227
+48,3-к квартира,150,24900000,Чернышевская ," Воскресенская наб, 4",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_150_m_212_et._1046032719
+49,3-к квартира,70.3,5700000,Гражданский проспект ," пр. Просвещения, д. 70",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_70.3_m_49_et._949219398
+50,Студия,46.6,3600000,Ленинский проспект ," Ленинский пр-кт,100",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_46.6_m_722_et._882398442
+51,2-к квартира,63,6400000,Технологический ин-т I ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_63_m_23_et._1012006715
+52,3-к квартира,150,24900000,Чернышевская ," Воскресенская наб, 4",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_150_m_212_et._1046032719
+53,3-к квартира,65,4900000,Автово ," п. Стрельна, ул Кропоткинская",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_65_m_15_et._1067430211
+54,2-к квартира,48,6400000,Пионерская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_48_m_35_et._1016583135
+55,1-к квартира,35.7,3450000,Международная ," Софийская ул., 57",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_35.7_m_810_et._925253491
+56,1-к квартира,39.9,4300000,Улица Дыбенко ," Искровский пр-кт, 29к2",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39.9_m_1616_et._967248266
+57,2-к квартира,50.2,4150000,Улица Дыбенко ," Искровский пр-кт, 26",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_50.2_m_49_et._1074921261
+58,Студия,31.2,4800000,Черная речка ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_31.2_m_1120_et._1023089121
+59,3-к квартира,113,8700000,Василеостровская ," восьмая В.О. линия, 59",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_113_m_55_et._879737975
+60,1-к квартира,31,4170000,Площадь Мужества ," ул Хлопина,д.7 к 1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_45_et._1141697214
+61,Студия,28,2290000,Девяткино ," Россия, ЛО",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_28_m_2427_et._1088973326
+62,1-к квартира,44.1,5000000,Комендантский проспект ," Комендантский пр-кт, 50к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_44.1_m_47_et._1206356953
+63,2-к квартира,110,12200000,Московская ," Московский пр-т, д. 181",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_110_m_518_et._948736802
+64,4-к квартира,57.7,5990000,Владимирская ," ул Достоевского, дом 21",https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_57.7_m_55_et._1029921336
+65,1-к квартира,44,7000000,Пушкинская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_44_m_18_et._974427286
+66,2-к квартира,46.2,3800000,Проспект Ветеранов ," ул Здоровцева, 33к1",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_46.2_m_89_et._1023657497
+67,2-к квартира,45.7,3700000,Ладожская ," Энтузиастов пр-кт, 53/38",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_45.7_m_79_et._874648707
+68,2-к квартира,50,6500000,Старая деревня ," ул Оптиков, 51к1",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_50_m_811_et._926801598
+69,1-к квартира,46,5650000,Комендантский проспект ," ул Парашютная, 15",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_46_m_14_et._1117944636
+70,2-к квартира,54.7,6490000,Проспект Большевиков ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_54.7_m_1616_et._1103356611
+71,1-к квартира,43.7,3382414,Звездная ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_43.7_m_522_et._1090243218
+72,1-к квартира,30.2,2650000,Парнас ," ул. Федора Абрамова, д. 20",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_30.2_m_1426_et._1126844844
+73,1-к квартира,34.4,2940000,Автово ," Петергоф, ул. Парковая",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_34.4_m_45_et._1180108004
+74,1-к квартира,47,9900000,Чернышевская ," Новгородская ул, д. 23",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_47_m_89_et._1150943291
+75,1-к квартира,46.4,5830000,Василеостровская ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_46.4_m_811_et._1145015063
+76,2-к квартира,43.7,3700000,Парк Победы ," ул Пограничника Гарькавого, 16к5",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_43.7_m_14_et._1204861747
+77,1-к квартира,41,3100000,Ленинский проспект ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_41_m_1022_et._1049709807
+78,2-к квартира,50.2,4450000,Улица Дыбенко ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_50.2_m_39_et._1189647803
+79,1-к квартира,37,5350000,Фрунзенская ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_37_m_825_et._969004553
+80,1-к квартира,37.8,4700000,Ладожская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_37.8_m_821_et._971645487
+81,3-к квартира,82,8200000,Василеостровская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_82_m_33_et._894117138
+82,Студия,23,1024000,Девяткино ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_23_m_818_et._1202763501
+83,1-к квартира,35,3899000,Лесная ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_35_m_1016_et._1027276423
+84,2-к квартира,61.8,5990000,Международная ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_61.8_m_225_et._950934575
+85,4-к квартира,114,9800000,Ладожская ," ул Латышских Стрелков, 15к3",https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_114_m_1416_et._984231077
+86,2-к квартира,90,12900000,Пушкинская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_90_m_35_et._81988825
+87,3-к квартира,93.8,12555000,Проспект Большевиков ," Дальневосточный пр-кт, 12",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_93.8_m_513_et._1049783639
+88,1-к квартира,31,2750000,Пролетарская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_55_et._938076150
+89,2-к квартира,54.3,4590000,Проспект Просвещения ," п. Парголово, Юкковское (Осиновая Роща) шоссе",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_54.3_m_514_et._1170670777
+90,3-к квартира,60,5000000,Старая деревня ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_60_m_45_et._925364014
+91,Студия,26,1690000,Парнас ," п. Парголово, ул Федора Абрамова",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_26_m_1026_et._1084551539
+92,3-к квартира,87,9800000,Горьковская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_87_m_56_et._1013868140
+93,2-к квартира,61,5000000,Проспект Ветеранов ," деревня Узигонты,  Ломоносовский район",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_61_m_13_et._871056297
+94,3-к квартира,93,8400000,Проспект Просвещения ,-,https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_93_m_35_et._955931902
+95,2-к квартира,50,4490000,Парнас ," улица Николая Рубцова, 5",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_50_m_2027_et._511489347
+96,Студия,28,2750000,Елизаровская ," ул. Цимбалина, д. 25А",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_28_m_323_et._966312091
+97,2-к квартира,60,5150000,Комендантский проспект ," Планерная ул, 41",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_60_m_810_et._1175480423
+98,1-к квартира,31,4050000,Озерки ," Луначарского пр-кт, 78Ак5",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_2626_et._1094322703
+99,3-к квартира,59.9,6575000,Гражданский проспект ," Суздальский пр-кт, 107",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_59.9_m_15_et._1030209602
+100,4-к квартира,108,8200000,Проспект Ветеранов ," Красносельское (Горелово) шоссе, 56Ак1",https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_108_m_816_et._1203301810
+101,4-к квартира,106,8900000,Площадь Восстания ,-,https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_106_m_24_et._864007974
+102,2-к квартира,65,5500000,Елизаровская ," ул Ткачей, 48",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_65_m_35_et._944581373
+103,2-к квартира,46,3400000,Проспект Просвещения ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_46_m_19_et._1211577673
+104,1-к квартира,42.4,3900000,Ломоносовская ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_42.4_m_1023_et._1152906706
+105,1-к квартира,36.3,4420000,Комендантский проспект ," Комендантский пр., 25к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_36.3_m_313_et._946780017
+106,1-к квартира,37,3300000,Девяткино ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_37_m_915_et._1209017993
+107,2-к квартира,135.2,20960000,Приморская ," ул Наличная, 26к4",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_135.2_m_616_et._1215499522
+108,1-к квартира,39.4,3900000,Обводный канал ," Лиговский просп., д. 271а",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39.4_m_511_et._1207956978
+109,1-к квартира,35,3349000,Ладожская ," Наставников пр-кт, 20к2",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_35_m_112_et._1041230457
+110,Студия,26,3650000,Московская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_26_m_1819_et._1060023552
+111,2-к квартира,44,2900000,Автово ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_44_m_55_et._958361511
+112,1-к квартира,39.5,3950000,Проспект Просвещения ," проспект Культуры, 25",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39.5_m_216_et._983714011
+113,2-к квартира,64,4800000,Купчино ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_64_m_1925_et._949349771
+114,1-к квартира,32,2300000,Автово ," Ломоносов, ул. Александровская",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_32_m_35_et._953563194
+115,2-к квартира,48,6400000,Пионерская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_48_m_35_et._1016583135
+116,1-к квартира,44.9,5200000,Проспект Большевиков ," ул. Складская, уч. 27",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_44.9_m_516_et._1157897904
+117,Студия,28,2999000,Площадь Ленина ," Екатерининский пр-кт, д.2",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_28_m_1224_et._1137833730
+118,1-к квартира,42,4600000,Международная ," Бухарестская ул, 118",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_42_m_1616_et._1020100398
+119,1-к квартира,40.1,4750000,Международная ," ул Белградская, 26Ак7",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_40.1_m_314_et._1179981633
+120,3-к квартира,59,5000000,Звездная ," Витебский пр-кт, 55",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_59_m_59_et._993701479
+121,Студия,25.6,2620000,Комендантский проспект ," Комендантский пр., Дом 2.1",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_25.6_m_1820_et._1121666319
+122,4-к квартира,89,8100000,Комендантский проспект ,-,https://www.avito.ru/sankt-peterburg/kvartiry/4-k_kvartira_89_m_117_et._552629644
+123,1-к квартира,59.9,4550000,Садовая ," Россия, Санкт-Петербург.декабристов11",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_59.9_m_25_et._938083477
+124,3-к квартира,69,6000000,Кировский завод ," улица Маршала Казакова, 28к3",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_69_m_716_et._1154316666
+125,1-к квартира,42.3,3690000,Проспект Ветеранов ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_42.3_m_1016_et._935046607
+126,5-к квартира,165.7,16900000,Петроградская ," ул Кронверкская, 29/37",https://www.avito.ru/sankt-peterburg/kvartiry/5-k_kvartira_165.7_m_56_et._1187555327
+127,1-к квартира,31,2800000,Международная ," Славы пр-кт, 2к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_69_et._1171461298
+128,Студия,25,2000000,Девяткино ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_25_m_415_et._1191962517
+129,2-к квартира,45,2990000,Проспект Ветеранов ," Красносельское шоссе, дом 44",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_45_m_25_et._894993082
+130,3-к квартира,56,4750000,ул Александровская,-,https://www.avito.ru/sankt-peterburg_lomonosov/kvartiry/3-k_kvartira_56_m_23_et._948953267
+131,Студия,35.7,1850000,Озерки ," ул. Тихоокеанская, ЖК «Парголово»",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_35.7_m_117_et._1042347073
+132,1-к квартира,31,3220000,Купчино ," Санкт-Петербург, город Пушкин",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_34_et._1102089502
+133,1-к квартира,39,4299000,Улица Дыбенко ," улица Антонова-Овсеенко, 5к1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_39_m_1116_et._1144757623
+134,Студия,26,2600000,Автово ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_26_m_622_et._571420279
+135,2-к квартира,125,14500000,Академическая ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_125_m_712_et._936430713
+136,2-к квартира,47,4050000,Гражданский проспект ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_47_m_79_et._1124440589
+137,2-к квартира,56,6300000,Сенная площадь ," Садовая ул., д.106",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_56_m_26_et._894509525
+138,3-к квартира,105,11800000,Политехническая ," ул Жака Дюкло, 6к1",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_105_m_55_et._875821904
+139,1-к квартира,36,4099000,Международная ," Россия, Санкт-Петербург",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_36_m_59_et._1007807165
+140,Студия,25,2900000,Проспект Ветеранов ,-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_25_m_28_et._310442842
+141,5-к квартира,197,33000000,Приморская ," Морская наб, 21к2",https://www.avito.ru/sankt-peterburg/kvartiry/5-k_kvartira_197_m_1113_et._758400155
+142,8-к квартира,200,22700000,Невский проспект ," Канала Грибоедова наб, 35",https://www.avito.ru/sankt-peterburg/kvartiry/8-k_kvartira_200_m_15_et._1170467649
+143,1-к квартира,53,6400000,Купчино ," Димитрова ул, 2",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_53_m_614_et._1020007933
+144,Студия,26,1700000,"ул. Школьная/Новгородский пр-т, Корпус ",-,https://www.avito.ru/sankt-peterburg/kvartiry/studiya_26_m_1925_et._1112614093
+145,1-к квартира,35.5,3200000,Ломоносовская ," ул Народная, 59 корп.1",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_35.5_m_28_et._710477325
+146,2-к квартира,44,600000,Автово ,-,https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_44_m_11_et._1187317448
+147,1-к квартира,32,4700000,Фрунзенская ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_32_m_47_et._990649262
+148,Студия,22.5,1990000,Ладожская ," Маршала Блюхера пр-кт, 57к1",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_22.5_m_19_et._961246142
+149,3-к квартира,58,4550000,Озерки ," Художников пр-кт, 18к1",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_58_m_19_et._933023621
+150,3-к квартира,81,8200000,Озерки ," ул. Сикейроса, д.11",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_81_m_216_et._1152011070
+151,Студия,27,2090000,Старая деревня ," ул Мебельная, 21к2",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_27_m_123_et._1211009741
+152,3-к квартира,54,3700000,Купчино ," Колпинское шоссе, дом 9",https://www.avito.ru/sankt-peterburg/kvartiry/3-k_kvartira_54_m_15_et._1081175063
+153,Студия,33,4000000,Проспект Ветеранов ," Ленинский пр-кт, 82к1",https://www.avito.ru/sankt-peterburg/kvartiry/studiya_33_m_517_et._1029601759
+154,1-к квартира,30,3000000,Купчино ," г. Пушкин, ул Саперная",https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_30_m_12_et._1012483083
+155,1-к квартира,31,2880000,Проспект Ветеранов ,-,https://www.avito.ru/sankt-peterburg/kvartiry/1-k_kvartira_31_m_19_et._965743118
+156,2-к квартира,126.1,19680000,Приморская ," ул Наличная, 26к4",https://www.avito.ru/sankt-peterburg/kvartiry/2-k_kvartira_126.1_m_716_et._1176430805
+>>>>>>> upstream/SQL
