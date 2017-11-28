@@ -1,14 +1,6 @@
-# Data-Mining
+# SQL
 Проект по DataMining в среде Python.
-Основной скрипт Analiz.py, скрипт AvitoRazdelenie.py открывается и запускается из Analiz. Возможно, для корректной работы потребуется прописать PATH к месту хранения скриптов. AvitoRazdelenie собирает и формирует данные о продаваемых квартирах с сайта Avito. Analiz производит простейшие статистические оценки и вывод визуальные графики. 
-В файле kvartiry.csv приведен пример собранных данных, для которых были получены следующие графики:
+Cкрипт AvitoRazdelenie.py собирает и формирует данные о продаваемых квартирах с сайта Avito и записывает их в файл kvartiry.csv
+Скрипт SQL используется для перевода данных из csv файла в db формат, при этом стирается номер записи (не используется в бд), а поле kvaddress, в котором записан адрес, ключевое. Данные файла db находятся в 3НФ. Ниже представлен скриншот из бд.
 
-![График 1](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_11.png)
-
-![График 2](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_22.png)
-
-![График 3](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_33.png)
-
-![График 4](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_44.png)
-
-![График 5](https://github.com/KonstantinPonamorev/Data-Mining/raw/Ponamorev/Figure_55.png)
+![Скриншот 1](https://github.com/deadwindxkn/Data-Mining/blob/SQL/SQL_DB.png)
