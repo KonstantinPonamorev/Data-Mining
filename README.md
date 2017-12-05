@@ -7,5 +7,5 @@
 
 В самом db файле стирается номер записи (не используется в бд), а поле kvaddress, в котором записан адрес, используется как ключ. Ниже представлен скриншот из бд.
 
-![Скриншот 1](https://github.com/deadwindxkn/Data-Mining/blob/SQL/db1.png)
-![Скриншот 2](https://github.com/deadwindxkn/Data-Mining/blob/SQL/db2.png)
+![Скриншот 1](https://github.com/deadwindxkn/Data-Mining/blob/SQL/db1.PNG)
+![Скриншот 2](https://github.com/deadwindxkn/Data-Mining/blob/SQL/db2.PNG)
