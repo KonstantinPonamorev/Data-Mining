@@ -15,7 +15,7 @@ for l in range(strok):
 v = list(my_dict.values())
 with open('kvartirysql.csv', 'a', encoding='utf-8') as f:
 	writer = csv.writer(f)
-	writer.writerow(('Number','Rooms','Square','Price','Metro','Address','Url'))
+	writer.writerow(('id','Rooms','Square','Price','Metro','Address','Url'))
 	for j in range(len(my_dict)):
 		writer = csv.writer(f)
 		writer.writerow(v[j])
@@ -37,10 +37,11 @@ cu = c.cursor()
 try:
 	cu.execute('''
 		CREATE TABLE kv  
-		  ( kvaddress Text Primary Key,
+		  ( id Integer Primary Key,
+		  	kvaddress Text,
 			kvmetro Text,
-			kvrooms Text,
-			kvsquare Text,
+			kvrooms Integer,
+			kvsquare Integer,
 			kvprice Integer,
 			kvurl Text );
 			''')
@@ -51,29 +52,29 @@ c.close()
 
 
 #input_file = pd.read_csv('kvartiry.csv', encoding='utf-8')
-#input_file = input_file.drop(['Number'], axis=1)
+
 	
 #input_file = input_file.drop(0, axis=0)
 #print(input_file)
 #sys.exit(0)
 #rdr = csv.DictReader(input_file,
-	#fieldnames = ['Number', 'Rooms','Square','Price','Metro','Address','Url'])
+	#fieldnames = ['id', 'Rooms','Square','Price','Metro','Address','Url'])
 
 c = db.connect(database='kvartiry.db')
 cu = c.cursor()
 with open('kvartirysql.csv','rt', encoding='utf-8') as input_file:
 	creader = csv.DictReader(input_file, delimiter=',')
-	to_db = [(i['Address'], i['Metro'], i['Rooms'], i['Square'], i['Price'], i['Url']) for i in creader]
+	to_db = [(i['id'], i['Address'], i['Metro'], i['Rooms'], i['Square'], i['Price'], i['Url']) for i in creader]
 cu.executemany('''INSERT INTO kv
-	(kvaddress, kvmetro, kvrooms, kvsquare, kvprice, kvurl)
-	VALUES (?,?,?,?,?,?);''', to_db)
+	(id, kvaddress, kvmetro, kvrooms, kvsquare, kvprice, kvurl)
+	VALUES (?,?,?,?,?,?,?);''', to_db)
 #for rec in input_file:
 	#print(rec[1])
 	#print(rec[3])
 	#sys.exit(0)
 	#cu.execute('''INSERT INTO kv
-		#(kvrooms, kvsquare, kvprice, kvmetro, kvaddress, kvurl)
+		#(id, kvrooms, kvsquare, kvprice, kvmetro, kvaddress, kvurl)
 		#VALUES (
-			#?, ?, ?, ?, ?, ?);''', (rec, rec, rec, rec, rec, rec))
+			#?, ?, ?, ?, ?, ?, ?);''', (rec, rec, rec, rec, rec, rec, rec))
 c.commit()
 c.close()
