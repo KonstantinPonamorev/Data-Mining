@@ -41,7 +41,7 @@ def get_page_data(html):
     ads = soup.find('div', class_='catalog-list', recursive = True).find_all('div', class_='item_table')
     for ad in ads:
         try:
-            rooms = ad.find('div', class_='description').find('h3', class_= 'title').text.strip().split(',')[0]
+            rooms = ad.find('div', class_='description').find('h3', class_= 'title').text.strip().split(',')[0].replace('-к квартира', '').replace('Студия', '0')
         except:
             rooms = '-'
         try:
@@ -82,7 +82,7 @@ def get_page_data(html):
 def main():
     with open('kvartiry.csv', 'a', encoding = 'utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(('Number','Rooms','Square','Price','Metro','Address','Url'))
+        writer.writerow(('id','Rooms','Square','Price','Metro','Address','Url'))
     url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?p=1'
     base_url = 'https://www.avito.ru/sankt-peterburg/kvartiry/prodam?'
     page_part = 'p=' 
